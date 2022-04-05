@@ -1,0 +1,34 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.32228.343
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PcStoreManagement", "PcStoreManagement\PcStoreManagement.csproj", "{A614930E-31AE-44A0-95EA-53A2F2E0C043}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WCFWebClient", "WCFWebClient\WCFWebClient.csproj", "{589ED771-2756-40F1-AAEB-006C4DBEC05B}"
+	ProjectSection(ProjectDependencies) = postProject
+		{A614930E-31AE-44A0-95EA-53A2F2E0C043} = {A614930E-31AE-44A0-95EA-53A2F2E0C043}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A614930E-31AE-44A0-95EA-53A2F2E0C043}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A614930E-31AE-44A0-95EA-53A2F2E0C043}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A614930E-31AE-44A0-95EA-53A2F2E0C043}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A614930E-31AE-44A0-95EA-53A2F2E0C043}.Release|Any CPU.Build.0 = Release|Any CPU
+		{589ED771-2756-40F1-AAEB-006C4DBEC05B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{589ED771-2756-40F1-AAEB-006C4DBEC05B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{589ED771-2756-40F1-AAEB-006C4DBEC05B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{589ED771-2756-40F1-AAEB-006C4DBEC05B}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8C2E9CF0-B946-42E0-8F9E-3B09098DF6EE}
+	EndGlobalSection
+EndGlobal
